@@ -12,10 +12,10 @@ port:             9001
 
 # Custom vars
 current_version:  0.0.3
-repo:             https://github.com/AntJanus/bootstrap-builder-boilerplate
+repo:             https://github.com/AntJanus/ludus-bootstrap-theme
 
-download_source:  https://github.com/AntJanus/bootstrap-builder-boilerplate/releases
-download_dist:    https://github.com/AntJanus/bootstrap-builder-boilerplate
+download_source:  https://github.com/AntJanus/ludus-bootstrap-theme/releases
+download_dist:    https://github.com/AntJanus/ludus-bootstrap-theme
 
 blog:             http://antjanus.com
 

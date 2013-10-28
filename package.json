@@ -1,17 +1,17 @@
 {
-  "title": "Bootstrap Builder Boilerplate",
-  "name": "bootstrap-builder-boilerplate",
-  "description": "Bootstrap building workspace",
-  "version": "0.0.3",
+  "title": "Ludus Bootstrap Theme",
+  "name": "ludus-bootstrap-theme",
+  "description": "Bootstrap Theme for Ludus application",
+  "version": "0.0.1",
   "author": {
     "name": "Antonin Januska",
-    "email": ""
+    "email": "antonin@antjanus.com"
   },
   "homepage": "https://antjanus.com",
-  "bugs": "https://github.com/AntJanus/bootstrap-builder-boilerplate/issues",
+  "bugs": "https://github.com/AntJanus/ludus-bootstrap-theme/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/antjanus/bootstrap-builder-boilerplate.git"
+    "url": "https://github.com/antjanus/ludus-bootstrap-theme.git"
   },
   "licenses": [
     {
