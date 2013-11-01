@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap core CSS -->
+<link href="/dist/css/bootstrap.css" rel="stylesheet">
+<link href="/dist/css/bootstrap-theme.css" rel="stylesheet">
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-2.0.0.min.js"></script>
+    <script src="/dist/js/bootstrap.js"></script>
+</head>
+<body style="">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="/templates" class="navbar-brand">Ludus</a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-main">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/templates">Home</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/links">Links</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/posts">Posts</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                                                <a href="http://localhost/login">Login</a>
+                                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="ludus-header">
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Best Site Ever</h1>
+            </div>
+        </div>
+        <div class="navbar-inverse navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-secondary">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse navbar-secondary">
+                    <ul class="nav navbar-nav">
+                                                <li>
+                            <a href="/links/basic-category">Basic Category</a>
+                        </li>
+                                                <li>
+                            <a href="/links/photography">Photography</a>
+                        </li>
+                                                <li>
+                            <a href="/links/php">PHP</a>
+                        </li>
+                                                <li>
+                            <a href="/links/javascript">Javascript</a>
+                        </li>
+                                                <li>
+                            <a href="/links/htmlcss">HTML/CSS</a>
+                        </li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+
+<h3>Add A Link</h3>
+<p>Please add a link at your convenience. Make it a good one too!</p>
+<form method="POST" action="http://localhost/links/add" accept-charset="UTF-8" class="form-horizontal"><input name="_token" type="hidden" value="wGRo0qfMeCNFi2mmhlPWgh45DaalD23hjdieElOK"><div class="form-group">
+        <label for="title" class="col-md-2 control-label">Title</label>    <div class="col-md-8">
+        <input class="form-control" name="title" type="text" value="" id="title">    </div>
+</div>
+<div class="form-group">
+        <label for="url" class="col-md-2 control-label">URL</label>    <div class="col-md-8">
+        <input class="form-control" name="url" type="text" value="" id="url">    </div>
+</div>
+<div class="form-group">
+        <label for="category" class="col-md-2 control-label">Category</label>    <div class="col-md-8">
+        <select class="form-control" id="category" name="category"><optgroup label="Basic Category"><option value="2">Basic SubCategory</option></optgroup><optgroup label="Photography"><option value="4">Basics</option><option value="5">Film</option><option value="6">Advanced</option></optgroup><optgroup label="PHP"><option value="8">Basics</option><option value="9">Framework</option><option value="10">Advanced</option><option value="11">CMS</option></optgroup><optgroup label="Javascript"><option value="13">Basics</option><option value="14">Framework</option><option value="15">Advanced</option><option value="16">MV*</option></optgroup><optgroup label="HTML/CSS"><option value="18">Basics</option><option value="19">Framework</option><option value="20">Advanced</option><option value="21">HTML5</option><option value="22">CSS3</option><option value="23">Animation</option></optgroup></select>    </div>
+</div>
+<div class="form-group">
+    <div class="col-md-2">
+        &nbsp;
+    </div>
+    <div class="col-md-8">
+        <input class="btn btn-primary" type="submit" value="Submit">    </div>
+</div>
+</form>            </div>
+            <div class="col-md-3">
+                                <a href="/links/add" class="btn btn-primary">Add Link +</a> <a href="/posts/add" class="btn btn-success">Add Post +</a>
+                            </div>
+        </div>
+    </div>
+    </body></html>
