@@ -1,69 +1,88 @@
 ---
 layout: template
-title: Ludus Bootstrap Theme
+title: Ludus Feed
 base_url: "/templates"
 ---
+<div id="ludus-header">
+    <div class="jumbotron">
         <div class="container">
-        <div class="row">
-            <div class="col-md-9">
-
-<h3>Feed List</h3>
-<div class="list-group">
-        <div class="list-group-item">
-        <a href="http://studfff0.com" class="list-group-item-heading"><h4>Sample Link Title0</h4></a>
-        <p class="list-group-item-text">
-            This is a sample description 0        </p>
-        <ul class="list-inline">
-            <li> upvotes</li>
-            <li> clicks</li>
-            <li><a href="link.html">Comments</a></li>
-        </ul>
-    </div>
-        <div class="list-group-item">
-        <a href="http://studfff1.com" class="list-group-item-heading"><h4>Sample Link Title1</h4></a>
-        <p class="list-group-item-text">
-            This is a sample description 1        </p>
-        <ul class="list-inline">
-            <li> upvotes</li>
-            <li> clicks</li>
-            <li><a href="link.html">Comments</a></li>
-        </ul>
-    </div>
-        <div class="list-group-item">
-        <a href="http://studfff2.com" class="list-group-item-heading"><h4>Sample Link Title2</h4></a>
-        <p class="list-group-item-text">
-            This is a sample description 2        </p>
-        <ul class="list-inline">
-            <li> upvotes</li>
-            <li> clicks</li>
-            <li><a href="link.html">Comments</a></li>
-        </ul>
-    </div>
-        <div class="list-group-item">
-        <a href="http://studfff3.com" class="list-group-item-heading"><h4>Sample Link Title3</h4></a>
-        <p class="list-group-item-text">
-            This is a sample description 3        </p>
-        <ul class="list-inline">
-            <li> upvotes</li>
-            <li> clicks</li>
-            <li><a href="link.html">Comments</a></li>
-        </ul>
-    </div>
-        <div class="list-group-item">
-        <a href="http://studfff4.com" class="list-group-item-heading"><h4>Sample Link Title4</h4></a>
-        <p class="list-group-item-text">
-            This is a sample description 4        </p>
-        <ul class="list-inline">
-            <li> upvotes</li>
-            <li> clicks</li>
-            <li><a href="link.html">Comments</a></li>
-        </ul>
-    </div>
-    </div>
-
+            <div class="col-md-8">
+                <h1>Category Name</h1>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
+                <form action="/search" method="get">
+                  <div class="input-group">
+                      <input type="search" class="form-control" placeholder="Search">
+                      <span class="input-group-btn">
+                          <input type="submit" value="Search!" class="btn btn-default">
+                      </span>
+                  </div>
+              </form>
+              <a href="/templates/add" class="btn btn-primary">Add Link +</a> <a href="/posts/add" class="btn btn-success">Add Post +</a> <a href="#" class="btn btn-danger">Sign Up!</a>
+
+          </div>
+      </div>
+  </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-9">
+            <div class="list-group">
+                <div class="list-group-item">
+                    <a href="http://studfff0.com" class="list-group-item-heading"><h4>Sample Link Title0</h4></a>
+                    <p class="list-group-item-text">
+                        This is a sample description 0        </p>
+                        <ul class="list-inline">
+                            <li> upvotes</li>
+                            <li> clicks</li>
+                            <li><a href="link.html">Comments</a></li>
+                        </ul>
+                    </div>
+                    <div class="list-group-item">
+                        <a href="http://studfff1.com" class="list-group-item-heading"><h4>Sample Link Title1</h4></a>
+                        <p class="list-group-item-text">
+                            This is a sample description 1        </p>
+                            <ul class="list-inline">
+                                <li> upvotes</li>
+                                <li> clicks</li>
+                                <li><a href="link.html">Comments</a></li>
+                            </ul>
+                        </div>
+                        <div class="list-group-item">
+                            <a href="http://studfff2.com" class="list-group-item-heading"><h4>Sample Link Title2</h4></a>
+                            <p class="list-group-item-text">
+                                This is a sample description 2        </p>
+                                <ul class="list-inline">
+                                    <li> upvotes</li>
+                                    <li> clicks</li>
+                                    <li><a href="link.html">Comments</a></li>
+                                </ul>
+                            </div>
+                            <div class="list-group-item">
+                                <a href="http://studfff3.com" class="list-group-item-heading"><h4>Sample Link Title3</h4></a>
+                                <p class="list-group-item-text">
+                                    This is a sample description 3        </p>
+                                    <ul class="list-inline">
+                                        <li> upvotes</li>
+                                        <li> clicks</li>
+                                        <li><a href="link.html">Comments</a></li>
+                                    </ul>
+                                </div>
+                                <div class="list-group-item">
+                                    <a href="http://studfff4.com" class="list-group-item-heading"><h4>Sample Link Title4</h4></a>
+                                    <p class="list-group-item-text">
+                                        This is a sample description 4        </p>
+                                        <ul class="list-inline">
+                                            <li> upvotes</li>
+                                            <li> clicks</li>
+                                            <li><a href="link.html">Comments</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-3">
                                 <a href="/templates/add" class="btn btn-primary">Add Link +</a> <a href="/posts/add" class="btn btn-success">Add Post +</a>
                             </div>
-        </div>
-    </div>
+                        </div>
+                    </div>
