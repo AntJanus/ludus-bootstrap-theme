@@ -2,13 +2,46 @@
  * Ludus Bootstrap Theme
  *
  * Bootstrap theme for the Ludus Application.
+ *
  */
 
+@import "vars.less";
+
 #ludus-header{
-    margin-top: -19px;
     margin-bottom: 20px;
 }
 
 #ludus-header .jumbotron{
     margin-bottom:0;
+}
+
+
+// recolor default navbar
+.navbar-top {
+    background-color: @mc-dark;
+    border-color: @mc-grey;
+    border-radius: 0;
+    margin-bottom: 0;
+
+    .navbar-brand {
+        color: @white;
+    }
+
+    .nav>li a {
+        color: @white;
+    }
+
+    .navbar-toggle:focus{
+        border-color: transparent;
+    }
+}
+
+.navbar-bottom {
+    .container {
+        padding-left: 0;
+    }
+
+    .navbar-secondary {
+        padding-left: 0;
+    }
 }
