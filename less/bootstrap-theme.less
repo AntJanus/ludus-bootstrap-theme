@@ -31,8 +31,15 @@
         color: @white;
     }
 
-    .navbar-toggle:focus{
+    .navbar-toggle {
+
+        &:focus{
         border-color: transparent;
+        }
+
+        &:hover{
+            background-color: @mc-grey;
+        }
     }
 }
 
@@ -51,4 +58,39 @@
 .btn-primary {
     background-color: @main-color;
     border-color: @mc-grey;
+
+    &:hover {
+        background-color: @mc-dark;
+        border-color: @mc-grey;
+    }
+}
+
+.btn-secondary {
+    background-color: @secondary-color;
+    border-color: @sc-grey;
+    color: #fff;
+
+    &:hover {
+        background-color: @sc-dark;
+        border-color: @sc-grey;
+        color: #fff;
+    }
+}
+
+.list-links {
+    .list-group-item {
+        border-color: #ccc;
+        background-color: #f3f3f3;
+        margin-bottom: 1.5em;
+
+        ul li:first-child{
+            margin-left: -5px;
+        }
+    }
+}
+
+.sidebar {
+   h3:first-child {
+    margin-top: 0;
+   }
 }
