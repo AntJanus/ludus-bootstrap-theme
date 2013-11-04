@@ -8,13 +8,14 @@
 @import "vars.less";
 
 #ludus-header{
-    margin-bottom: 20px;
+    background: @mc-grey;
+    color: @white;
+
 }
 
-#ludus-header .jumbotron{
-    margin-bottom:0;
+body {
+    background: @mc-dark;
 }
-
 
 // recolor default navbar
 .navbar-top {
@@ -41,6 +42,12 @@
             background-color: @mc-grey;
         }
     }
+
+    form input[type=text] {
+        background: @mc-dark;
+        border: 1px solid @mc-grey;
+        color: #fff;
+    }
 }
 
 .navbar-bottom {
@@ -57,11 +64,11 @@
 
 .btn-primary {
     background-color: @main-color;
-    border-color: @mc-grey;
+    border-color: @mc-dark;
 
     &:hover {
-        background-color: @mc-dark;
-        border-color: @mc-grey;
+        background-color: @mc-light;
+        border-color: @mc-dark;
     }
 }
 
@@ -77,10 +84,20 @@
     }
 }
 
+
+//sidebar and content
+#ludus-content {
+    margin-top: 1.5em;
+}
+
+.ludus-share {
+    margin-bottom: 1.5em;
+}
+
 .list-links {
     .list-group-item {
-        border-color: #ccc;
-        background-color: #f3f3f3;
+        border-color: @mc-dark;
+        background-color: #fff;
         margin-bottom: 1.5em;
 
         ul li:first-child{
@@ -89,8 +106,62 @@
     }
 }
 
-.sidebar {
-   h3:first-child {
-    margin-top: 0;
-   }
+.ludus-widget {
+    background: @mc-light;
+    color: @mc-white;
+    border-bottom: 1px solid @mc-grey;
+    padding: .5em 1em;
+
+    h3{
+        margin-top: 0;
+    }
+
+    a {
+        color: @white;
+    }
+}
+
+//color preview
+.color-prev{
+    height: 25px;
+}
+
+.main-color {
+    background: @main-color;
+}
+
+.mc-grey {
+    background: @mc-grey;
+}
+
+.mc-dark {
+    background: @mc-dark;
+}
+
+.mc-light {
+    background: @mc-light;
+}
+
+.mc-white {
+    background: @mc-white;
+}
+
+.secondary-color {
+    background: @secondary-color;
+}
+
+.sc-grey {
+    background: @sc-grey;
+}
+
+.sc-dark {
+    background: @sc-dark;
+}
+
+.sc-light {
+    background: @sc-light;
+}
+
+.sc-white {
+    background: @sc-white;
 }
