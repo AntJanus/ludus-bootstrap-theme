@@ -6,11 +6,19 @@
  */
 /** Vars based on Color Scheme Designer **/
 #ludus-header {
-  background: #27416c;
   color: #ffffff;
+}
+#ludus-header h1,
+#ludus-header h2,
+#ludus-header h3,
+#ludus-header h4,
+#ludus-header h5,
+#ludus-header h6 {
+  margin-top: 0;
 }
 body {
   background: #21395e;
+  color: #ffffff;
 }
 .navbar-top {
   background-color: #375e99;
@@ -59,19 +67,22 @@ body {
   border-color: #484848;
   color: #fff;
 }
+.ludus-list-white {
+  border-color: #21395e;
+  background-color: #fff;
+  color: #000000;
+}
+.ludus-list-white ul li:first-child {
+  margin-left: -5px;
+}
+.ludus-list-white h4 {
+  margin-top: 0;
+}
 #ludus-content {
   margin-top: 1.5em;
 }
 .ludus-share {
   margin-bottom: 1.5em;
-}
-.list-links .list-group-item {
-  border-color: #21395e;
-  background-color: #fff;
-  margin-bottom: 1.5em;
-}
-.list-links .list-group-item ul li:first-child {
-  margin-left: -5px;
 }
 .ludus-widget {
   background: #466594;
@@ -84,6 +95,44 @@ body {
 }
 .ludus-widget a {
   color: #ffffff;
+}
+.ludus-title h1,
+.ludus-title h2,
+.ludus-title h3,
+.ludus-title h4 {
+  margin-top: 0;
+}
+.list-links {
+  color: #000000;
+}
+.list-links .list-group-item {
+  border-color: #21395e;
+  background-color: #fff;
+  color: #000000;
+  margin-bottom: 1.5em;
+}
+.list-links .list-group-item ul li:first-child {
+  margin-left: -5px;
+}
+.list-links .list-group-item h4 {
+  margin-top: 0;
+}
+.list-links .ludus-link-featured {
+  border: 0;
+  border-left: 30px #a2b9dc solid;
+  border-right: 30px #a2b9dc solid;
+  border-radius: 0;
+}
+.ludus-comments-item {
+  border-color: #21395e;
+  background-color: #fff;
+  color: #000000;
+}
+.ludus-comments-item ul li:first-child {
+  margin-left: -5px;
+}
+.ludus-comments-item h4 {
+  margin-top: 0;
 }
 .color-prev {
   height: 25px;

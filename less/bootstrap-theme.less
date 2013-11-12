@@ -5,16 +5,19 @@
  *
  */
 
-@import "vars.less";
+ @import "vars.less";
 
-#ludus-header{
-    background: @mc-grey;
+ #ludus-header{
     color: @white;
 
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 0;
+    }
 }
 
 body {
     background: @mc-dark;
+    color: @white;
 }
 
 // recolor default navbar
@@ -35,7 +38,7 @@ body {
     .navbar-toggle {
 
         &:focus{
-        border-color: transparent;
+            border-color: transparent;
         }
 
         &:hover{
@@ -84,6 +87,21 @@ body {
     }
 }
 
+//elements
+.ludus-list-white {
+    border-color: @mc-dark;
+    background-color: #fff;
+    color: @black;
+
+    ul li:first-child{
+        margin-left: -5px;
+    }
+
+    h4 {
+        margin-top: 0;
+    }
+}
+
 
 //sidebar and content
 #ludus-content {
@@ -94,17 +112,6 @@ body {
     margin-bottom: 1.5em;
 }
 
-.list-links {
-    .list-group-item {
-        border-color: @mc-dark;
-        background-color: #fff;
-        margin-bottom: 1.5em;
-
-        ul li:first-child{
-            margin-left: -5px;
-        }
-    }
-}
 
 .ludus-widget {
     background: @mc-light;
@@ -119,6 +126,42 @@ body {
     a {
         color: @white;
     }
+}
+
+.ludus-title {
+    h1, h2, h3, h4{
+        margin-top: 0;
+    }
+}
+
+//links
+.list-links {
+    color: @black;
+
+    .list-group-item {
+        .ludus-list-white;
+        margin-bottom: 1.5em;
+    }
+
+    .ludus-link-featured {
+        border: 0;
+        border-left: 30px @mc-white solid;
+        border-right: 30px @mc-white solid;
+        border-radius: 0;
+    }
+}
+
+
+
+//comments
+
+
+.ludus-comments {
+
+}
+
+.ludus-comments-item {
+    .ludus-list-white;
 }
 
 //color preview
