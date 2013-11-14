@@ -8,7 +8,7 @@
  @import "vars.less";
 
  #ludus-header{
-    color: @white;
+    color: @mc-dark;
 
     h1, h2, h3, h4, h5, h6 {
         margin-top: 0;
@@ -16,8 +16,16 @@
 }
 
 body {
-    background: @mc-dark;
-    color: @white;
+    background: #efefef;
+    color: @black;
+}
+
+a {
+    color: @main-color;
+}
+
+a:hover {
+    color: @mc-dark;
 }
 
 // recolor default navbar
@@ -88,10 +96,18 @@ body {
 }
 
 //elements
+
+.list-group-item:first-child, .list-group-item:last-child {
+    border-radius: 0;
+}
+
 .ludus-list-white {
-    border-color: @mc-dark;
     background-color: #fff;
     color: @black;
+
+    border-top: 1px solid @mc-dark;
+    border-bottom: 1px solid @mc-dark;
+    border-radius: 0;
 
     ul li:first-child{
         margin-left: -5px;
@@ -129,6 +145,8 @@ body {
 }
 
 .ludus-title {
+    border: 0;
+
     h1, h2, h3, h4{
         margin-top: 0;
     }
@@ -140,18 +158,15 @@ body {
 
     .list-group-item {
         .ludus-list-white;
-        margin-bottom: 1.5em;
     }
 
     .ludus-link-featured {
-        border: 0;
-        border-left: 30px @mc-white solid;
-        border-right: 30px @mc-white solid;
-        border-radius: 0;
     }
 }
 
-
+.ludus-link {
+    color: @black;
+}
 
 //comments
 

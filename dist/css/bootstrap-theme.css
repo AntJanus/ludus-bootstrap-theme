@@ -6,7 +6,7 @@
  */
 /** Vars based on Color Scheme Designer **/
 #ludus-header {
-  color: #ffffff;
+  color: #316331;
 }
 #ludus-header h1,
 #ludus-header h2,
@@ -17,12 +17,18 @@
   margin-top: 0;
 }
 body {
-  background: #21395e;
-  color: #ffffff;
+  background: #efefef;
+  color: #000000;
+}
+a {
+  color: #4d994d;
+}
+a:hover {
+  color: #316331;
 }
 .navbar-top {
-  background-color: #375e99;
-  border-color: #27416c;
+  background-color: #4d994d;
+  border-color: #387039;
   border-radius: 0;
   margin-bottom: 0;
 }
@@ -36,11 +42,11 @@ body {
   border-color: transparent;
 }
 .navbar-top .navbar-toggle:hover {
-  background-color: #27416c;
+  background-color: #387039;
 }
 .navbar-top form input[type=text] {
-  background: #21395e;
-  border: 1px solid #27416c;
+  background: #316331;
+  border: 1px solid #387039;
   color: #fff;
 }
 .navbar-bottom .container {
@@ -50,12 +56,12 @@ body {
   padding-left: 0;
 }
 .btn-primary {
-  background-color: #375e99;
-  border-color: #21395e;
+  background-color: #4d994d;
+  border-color: #316331;
 }
 .btn-primary:hover {
-  background-color: #466594;
-  border-color: #21395e;
+  background-color: #5d935d;
+  border-color: #316331;
 }
 .btn-secondary {
   background-color: #676767;
@@ -67,10 +73,16 @@ body {
   border-color: #484848;
   color: #fff;
 }
+.list-group-item:first-child,
+.list-group-item:last-child {
+  border-radius: 0;
+}
 .ludus-list-white {
-  border-color: #21395e;
   background-color: #fff;
   color: #000000;
+  border-top: 1px solid #316331;
+  border-bottom: 1px solid #316331;
+  border-radius: 0;
 }
 .ludus-list-white ul li:first-child {
   margin-left: -5px;
@@ -85,9 +97,9 @@ body {
   margin-bottom: 1.5em;
 }
 .ludus-widget {
-  background: #466594;
-  color: #a2b9dc;
-  border-bottom: 1px solid #27416c;
+  background: #5d935d;
+  color: #b9dab9;
+  border-bottom: 1px solid #387039;
   padding: .5em 1em;
 }
 .ludus-widget h3 {
@@ -95,6 +107,9 @@ body {
 }
 .ludus-widget a {
   color: #ffffff;
+}
+.ludus-title {
+  border: 0;
 }
 .ludus-title h1,
 .ludus-title h2,
@@ -106,10 +121,11 @@ body {
   color: #000000;
 }
 .list-links .list-group-item {
-  border-color: #21395e;
   background-color: #fff;
   color: #000000;
-  margin-bottom: 1.5em;
+  border-top: 1px solid #316331;
+  border-bottom: 1px solid #316331;
+  border-radius: 0;
 }
 .list-links .list-group-item ul li:first-child {
   margin-left: -5px;
@@ -117,16 +133,15 @@ body {
 .list-links .list-group-item h4 {
   margin-top: 0;
 }
-.list-links .ludus-link-featured {
-  border: 0;
-  border-left: 30px #a2b9dc solid;
-  border-right: 30px #a2b9dc solid;
-  border-radius: 0;
+.ludus-link {
+  color: #000000;
 }
 .ludus-comments-item {
-  border-color: #21395e;
   background-color: #fff;
   color: #000000;
+  border-top: 1px solid #316331;
+  border-bottom: 1px solid #316331;
+  border-radius: 0;
 }
 .ludus-comments-item ul li:first-child {
   margin-left: -5px;
@@ -138,19 +153,19 @@ body {
   height: 25px;
 }
 .main-color {
-  background: #375e99;
+  background: #4d994d;
 }
 .mc-grey {
-  background: #27416c;
+  background: #387039;
 }
 .mc-dark {
-  background: #21395e;
+  background: #316331;
 }
 .mc-light {
-  background: #466594;
+  background: #5d935d;
 }
 .mc-white {
-  background: #a2b9dc;
+  background: #b9dab9;
 }
 .secondary-color {
   background: #676767;
