@@ -3,7 +3,7 @@ Ludus Bootstrap Theme
 
 ![dependency overview](https://david-dm.org/antjanus/ludus-bootstrap-theme.png)
 
-![logo](https://github.com/AntJanus/ludus-bootstrap-theme/blob/master/images/logo-black.png)
+![logo](https://raw.github.com/AntJanus/ludus-bootstrap-theme/master/images/logo-black.png)
 Installing
 ===================
 
