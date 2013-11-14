@@ -26,6 +26,17 @@ a {
 a:hover {
   color: #316331;
 }
+.navbar-brand {
+  padding: 0;
+  line-height: 50px;
+}
+.navbar-brand img {
+  max-height: 35px;
+  padding-right: 10px;
+}
+.navbar > .container .navbar-brand {
+  margin-left: 0;
+}
 .navbar-top {
   background-color: #4d994d;
   border-color: #387039;
