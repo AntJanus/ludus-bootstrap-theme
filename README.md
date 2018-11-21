@@ -4,7 +4,8 @@ Ludus Bootstrap Theme
 ![dependency overview](https://david-dm.org/antjanus/ludus-bootstrap-theme.png)
 
 ![logo](https://raw.github.com/AntJanus/ludus-bootstrap-theme/master/images/logo-black.png)
-Installing
+
+Installation
 ===================
 
 Install the dependencies for running the various tasks to prebuild the environment:
